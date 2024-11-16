@@ -12,10 +12,10 @@ logging.basicConfig(
 )
 
 # Twilio configuration - make sure to replace these with your own values
-TWILIO_ACCOUNT_SID = 'AC05f752a99c3de6996e956c2474a9d9ca'
-TWILIO_AUTH_TOKEN = '6e2a543f16c3be18628c33cb600c03bb'
-FROM_PHONE = '+18304944676'
-TO_PHONE = '+918767401706'
+TWILIO_ACCOUNT_SID = 'YOUR_SID'
+TWILIO_AUTH_TOKEN = 'YOUR_TOKEN'
+FROM_PHONE = 'TWILIO_NUMBER'
+TO_PHONE = 'YOUR_PHONE_NUMBER'
 
 
 # Function to send SMS alert
